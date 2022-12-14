@@ -1,0 +1,84 @@
+body {
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(background2.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+} 
+.top {
+    position: relative;
+
+} 
+.prof {
+    margin-left: 90px;
+    padding: 0px;
+    background-color: none;
+    float: left;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    margin-top: 0px;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(long-road-expsoure-v3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.pic {
+    display: flex;
+    justify-content: right;
+    position: right;
+    margin-left: 150px;
+    margin-top: 20px;
+
+}
+nav ul li {
+    display: inline-block;
+    margin: 5px 15px;
+}
+a{
+    text-decoration: navajowhite;
+}
+ul li :hover {
+    background-color: aqua;
+}
+ul li :is(:link, :active, :visited).active {
+    color: #EEEEEE;
+    background-color: black;
+}
+.body {
+    margin-top: 60px;
+    margin-left: 100px;
+    font-size: 50px;
+    width: 600px;
+    color: #C58940;
+}
+span {
+    color: white;
+}
+.h3 {
+    margin-top: 30px;
+    margin-left: 90px;
+    font-size: 60px;
+    color: #E5BA73; 
+}
+.est {
+    margin-top: 90px;
+    margin-left: 100px;
+    font-size: 40px;
+    position: relative;
+}
+.bit {
+    margin-top: 60px;
+    margin-left: 100px;
+    font-size: 40px;
+    color: #FFDCA9;
+}
+.qut {
+    margin-top: 40px;
+    margin-left: 700px;
+    font-size: 20px;
+}

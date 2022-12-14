@@ -1,0 +1,108 @@
+body {
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    
+} 
+.top {
+    position: relative;
+
+} 
+.prof {
+    margin-left: 90px;
+    padding: 0px;
+    background-color: none;
+    float: left;
+    color: #d6249f;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    margin-top: 0px;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(long-road-expsoure-v3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.pic {
+    display: flex;
+    justify-content: right;
+    position: right;
+    margin-left: 210px;
+    margin-top: 20px;
+    width: 700px;
+    height: 600px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 5px 15px;
+}
+a{
+    text-decoration: none;
+}
+
+.icon {
+    width: 90px;
+    color: blue;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+.istgc {
+    color: white;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  background: -webkit-radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  margin-left: 200px;
+  margin-top: 20px;
+  size: 50px;
+}
+.here {
+    margin-left: 90px;
+    font-size: 89px;
+}
+ul li :hover{
+    background-color: aqua;
+}
+ul li :is(:link, :active, :visited).active {
+    color: #EEEEEE;
+    background-color: black;
+}
+.email {
+    width: 90px;
+    color: red;
+    margin-top: opx;
+    margin-left: 170px;
+    font-size: 40px;
+}
+.soc {
+    margin-left: 90px;
+    color: whitesmoke;
+    font-size: 90px;
+    margin-top: 50px;
+}
+.mail {
+    width: 90px;
+    color: whitesmoke;
+    margin-top: 90px;
+    margin-left: 100px;
+    font-size: 34px;
+}

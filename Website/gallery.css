@@ -1,0 +1,89 @@
+body {
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(background.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;  
+} 
+.top {
+    position: relative;
+
+} 
+.prof {
+    margin-left: 90px;
+    padding: 0px;
+    background-color: none;
+    float: left;
+    color: #BAD1C2;
+}
+.image {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mimax(250px, 1fr));
+    grid-gap: 30px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 40px;
+    margin-top: 0px;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(long-road-expsoure-v3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.pic {
+    width: 900px;
+    height: 700px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 500px;
+}
+.pic1 {
+    width: 400px;
+    height: 600px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 400px;
+    margin-left: 750px;
+}
+.pic2 {
+    width: 600px;
+    height: 500px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 700px;
+    margin-right: 800px;
+}
+.pic3 {
+    width: 600px;
+    height: 500px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 700px;
+    margin-right: 800px;
+}
+.pic4 {
+    width: 600px;
+    height: 500px;
+    float: right;
+    margin-top: 20px;
+    margin-left: 700px;
+    margin-right: 800px;
+}
+nav ul li {
+    display: inline-block;
+    margin: 5px 15px;
+}
+a{
+    text-decoration: none;
+}
+ul li :hover{
+    background-color: aqua;
+}
+ul li :is(:link, :active, :visited).active {
+    color: #EEEEEE;
+    background-color: black;
+}
